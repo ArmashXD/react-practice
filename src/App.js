@@ -1,11 +1,9 @@
-import Todo from './components/Todo';
-
+import List from "./components/List";
 
 function App() {
   return (
     <div >
-      <h1>My Todos</h1>
-      <Todo text="Learn React"/>
+      
     </div>
   );
 }

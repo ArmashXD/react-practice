@@ -3,7 +3,7 @@ import NewMeetupPage from './pages/NewMeetup';
 import FavoritesPage from './pages/Favorites';
 import { Route, Routes } from "react-router-dom";
 import MainNav from './components/Layout/MainNav';
-import Block from './components/Block';
+import Block from './components/Practice/Block';
 import {useState} from 'react';
 
 

@@ -29,32 +29,11 @@ function Block() {
 
     return (
       <div>
-        <button
-        className='btn-red'
-          onClick={incrementRed}
-        >
-         Click
-        </button>
-
-        <button
-        className='btn-yellow'
-        onClick={incrementYellow}
-        >
-          Click
-        </button>
-
-        <button
-        className='btn-green'
-        onClick={incrementGreen}
-        >
-          Click
-        </button>
-        <button
-        className='btn-blue'
-        onClick={incrementBlue}
-        >
-          Click
-        </button>
+        
+        <Count background="btn-red" onCount={incrementRed}/>
+        <Count background="btn-yellow" onCount={incrementYellow}/>
+        <Count background="btn-green" onCount={incrementGreen}/>
+        <Count background="btn-blue" onCount={incrementBlue}/>
         
         <div>Red: {state.red}</div>
         <div>Yellow: {state.yellow}</div>

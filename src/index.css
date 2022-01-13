@@ -19,3 +19,37 @@ h2 {
   font-size: 1.5rem;
   color: #2c292b;
 }
+
+
+.btn-red{
+  background-color: red;
+  color: black;
+  font-size: 25px;
+  width: 100px;
+}
+
+.btn-yellow{
+  background-color: yellow;
+  color: black;
+  font-size: 25px;
+  width: 100px;
+}
+
+.btn-green{
+  background-color: green;
+  color: black;
+  font-size: 25px;
+  width: 100px;
+}
+
+.btn-blue{
+  background-color: blue;
+  color: black;
+  font-size: 25px;
+  width: 100px;
+}
+
+.block
+{
+  margin: 10px;
+}
